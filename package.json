@@ -1,0 +1,25 @@
+{
+  "name": "node-restify-for-mpl-boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate for Roche Restify projects",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --inspect src/server.js",
+    "dev-brk": "node --inspect-brk src/server.js",
+    "test": "jest ./src",
+    "test-watch": "jest --watchAll ./src",
+    "test-coverage": "jest --coverage ./src",
+    "install-pm2-globally": "npm install pm2 -g"
+  },
+  "author": "Philippe Lacombe | Roche contractor",
+  "license": "ISC",
+  "dependencies": {
+    "restify": "^8.3.3"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "jest": "^24.8.0",
+    "supertest": "^4.0.2"
+  }
+}
