@@ -7,4 +7,4 @@ Default port is 8080, could be changed in server.js
 
 run npm test to launch test suite
 
-run npm rnu test-watch to launch test suite watch mode
+run npm run test-watch to launch test suite watch mode
